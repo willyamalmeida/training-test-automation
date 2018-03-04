@@ -1,0 +1,38 @@
+{
+    "name": "training-test-automation",
+    "version": "1.0.0",
+    "description": "Test Automation",
+    "main": "./index.html",
+    "scripts": {
+        "test": "echo 'no test'",
+        "dev": "./node_modules/.bin/gulp dev",
+        "build": "./node_modules/.bin/gulp build",
+        "start": "npm run dev",
+        "watch": "./node_modules/.bin/gulp watch",
+        "deploy": "./node_modules/.bin/gulp deploy-pages"
+    },
+    "keywords": [
+        "reveal",
+        "gulp",
+        "stylus",
+        "highlight",
+        "test-automation"
+    ],
+    "author": "Willyam Almeida",
+    "license": "ISC",
+    "devDependencies": {
+        "browser-sync": "2.23.6",
+        "gulp": "3.9.1",
+        "gulp-cache": "1.0.2",
+        "gulp-concat": "2.6.1",
+        "gulp-cssnano": "2.1.2",
+        "gulp-gh-pages-will": "0.5.5",
+        "gulp-imagemin": "4.1.0",
+        "gulp-plumber": "1.2.0",
+        "gulp-pug": "3.3.0",
+        "gulp-stylus": "2.7.0",
+        "gulp-uglify": "3.0.0",
+        "gulp-util": "3.0.8",
+        "push-dir": "^0.4.1"
+    }
+}
